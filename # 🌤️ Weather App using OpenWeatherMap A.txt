@@ -1,0 +1,42 @@
+# 🌤️ Weather App using OpenWeatherMap API
+
+A simple command-line Python project that fetches and displays real-time weather data using the OpenWeatherMap API.
+
+---
+
+## 🚀 Features
+
+- Get current temperature, weather condition, humidity, and wind speed.
+- Input any city name (e.g., `Mumbai`, `London`, or `Mumbai,IN`).
+- Handles errors like invalid city names or missing API keys.
+- Clean and readable terminal output with emojis.
+
+---
+
+## 📁 How It Works
+
+1. The user inputs a city name.
+2. The app sends a request to the OpenWeatherMap API.
+3. The API returns current weather data.
+4. The app parses and prints this data to the console.
+
+---
+
+## 📦 Requirements
+
+- Python 3.6+
+- `requests` library
+
+Install dependencies with:
+
+```bash
+pip install requests
+
+
+
+🛡️ Notes
+1)Make sure to enter city names accurately (e.g., Paris,FR or New York,US).
+
+2)If you get "City not found", double-check your spelling and try again.
+
+3)API key is required for successful requests.
